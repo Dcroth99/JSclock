@@ -12,14 +12,14 @@ if (h==0) {
 
 if (h > 12) {
     h = h - 12;
-    session = "PM";
+    sesh = "PM";
 }
 
 h = (h < 10) ? "0" + h : h;
 m = (m < 10) ? "0" + m : m;
 s = (s < 10) ? "0" + s : s; 
 
-var time = h + ":" + m + ":" + s + " " + session;
+var time = h + ":" + m + ":" + s + " " + sesh;
 
 document.getElementById("MyClockDisplay").innerText = time;
 
